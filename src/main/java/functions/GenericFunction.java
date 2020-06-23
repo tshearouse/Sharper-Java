@@ -1,4 +1,5 @@
 package functions;
 
-public interface ToOption {
+public interface GenericFunction<T> {
+    T apply();
 }
